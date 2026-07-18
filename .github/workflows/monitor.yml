@@ -1,0 +1,93 @@
+name: Internship Monitor
+
+on:
+  schedule:
+    # Every 3 hours — the check cycle
+    - cron: "0 */3 * * *"
+    # Daily summary at 8 PM America/Chicago.
+    # GitHub cron is UTC: 01:00 UTC = 8 PM CDT (summer). In winter (CST) this
+    # fires at 7 PM — change to "0 2 * * *" each November if you care.
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to run"
+        required: false
+        default: "check"
+        type: choice
+        options: [check, summary]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: internship-monitor
+  cancel-in-progress: false
+
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Playwright Chromium
+        run: npx playwright install chromium --with-deps
+
+      - name: Build
+        run: npm run build
+
+      - name: Run tests
+        run: npm test
+
+      - name: Decide mode
+        id: mode
+        run: |
+          MODE="check"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            MODE="${{ inputs.mode }}"
+          elif [ "${{ github.event.schedule }}" = "0 1 * * *" ]; then
+            MODE="summary"
+          fi
+          echo "mode=$MODE" >> "$GITHUB_OUTPUT"
+
+      - name: Run check cycle
+        if: steps.mode.outputs.mode == 'check'
+        env:
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_FROM_NUMBER: ${{ secrets.TWILIO_FROM_NUMBER }}
+          NOTIFY_PHONE_NUMBER: ${{ secrets.NOTIFY_PHONE_NUMBER }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: node dist/index.js --once
+
+      - name: Run daily summary
+        if: steps.mode.outputs.mode == 'summary'
+        env:
+          TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
+          TWILIO_AUTH_TOKEN: ${{ secrets.TWILIO_AUTH_TOKEN }}
+          TWILIO_FROM_NUMBER: ${{ secrets.TWILIO_FROM_NUMBER }}
+          NOTIFY_PHONE_NUMBER: ${{ secrets.NOTIFY_PHONE_NUMBER }}
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: node dist/index.js --summary
+
+      - name: Commit database + widget feed back to the repo
+        run: |
+          git config user.name "internship-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add -f data/internships.db data/status.json logs/*.log || true
+          if git diff --cached --quiet; then
+            echo "No state changes to commit."
+          else
+            git commit -m "chore: monitor state $(date -u +'%Y-%m-%dT%H:%MZ') [skip ci]"
+            git pull --rebase origin ${{ github.ref_name }} || true
+            git push
+          fi

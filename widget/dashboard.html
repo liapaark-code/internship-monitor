@@ -1,0 +1,252 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Internship Monitor — Product Design · Summer 2027</title>
+<style>
+  :root{
+    --bg0:#040914; --bg1:#081633; --bg2:#0b1f4a;
+    --glass:rgba(13,30,65,.55); --glass2:rgba(18,40,86,.45);
+    --line:rgba(122,170,255,.22); --line-strong:rgba(140,190,255,.4);
+    --ink:#f2f7ff; --ink2:#b9cdf2; --ink3:#7d95c4;
+    --accent:#66b3ff; --cyan:#7ff0ff;
+    --good:#35e08d; --warn:#ffd166; --info:#5ab8ff; --closed:#8a9bbd;
+    --r:18px;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Inter,sans-serif;
+    color:var(--ink);
+    background:
+      radial-gradient(1100px 700px at 12% -8%, #12306e 0%, transparent 55%),
+      radial-gradient(900px 600px at 105% 12%, #0e2a5e 0%, transparent 55%),
+      radial-gradient(700px 500px at 50% 115%, #0a2150 0%, transparent 60%),
+      linear-gradient(160deg, var(--bg0), var(--bg1) 55%, var(--bg0));
+    min-height:100%;
+    padding:28px clamp(16px,3.5vw,44px) 44px;
+  }
+  .glass{
+    background:var(--glass);
+    border:1px solid var(--line);
+    border-radius:var(--r);
+    -webkit-backdrop-filter:blur(24px) saturate(150%);
+    backdrop-filter:blur(24px) saturate(150%);
+    box-shadow:0 12px 40px rgba(2,8,25,.55), inset 0 1px 0 rgba(180,215,255,.14);
+  }
+  /* header */
+  header{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between;
+    padding:20px 24px;margin-bottom:20px}
+  .brand h1{font-size:20px;font-weight:700;letter-spacing:.16em;text-transform:uppercase}
+  .brand .sub{color:var(--ink2);font-size:13px;letter-spacing:.03em;margin-top:2px}
+  .brand .sub b{color:var(--cyan);font-weight:600}
+  .meta{display:flex;align-items:center;gap:14px;font-size:13px;color:var(--ink2)}
+  .live{display:inline-flex;align-items:center;gap:7px;font-weight:600;color:var(--good);
+    padding:6px 12px;border:1px solid rgba(53,224,141,.35);border-radius:999px;
+    background:rgba(53,224,141,.08)}
+  .live .dot{width:8px;height:8px;border-radius:50%;background:var(--good);
+    box-shadow:0 0 0 0 rgba(53,224,141,.6);animation:pulse 2.2s infinite}
+  .live.sample{color:var(--warn);border-color:rgba(255,209,102,.4);background:rgba(255,209,102,.08)}
+  .live.sample .dot{background:var(--warn);animation:none}
+  @keyframes pulse{0%{box-shadow:0 0 0 0 rgba(53,224,141,.5)}70%{box-shadow:0 0 0 9px rgba(53,224,141,0)}100%{box-shadow:0 0 0 0 rgba(53,224,141,0)}}
+  /* stat tiles */
+  .tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-bottom:20px}
+  .tile{padding:18px 20px}
+  .tile .k{font-size:12px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+  .tile .v{font-size:38px;font-weight:800;letter-spacing:-.01em;margin-top:4px;
+    font-variant-numeric:tabular-nums;color:var(--ink)}
+  .tile .v.accent{color:var(--cyan)}
+  .tile .hint{font-size:12px;color:var(--ink2);margin-top:2px}
+  /* main grid */
+  .grid{display:grid;grid-template-columns:minmax(320px,5fr) minmax(380px,7fr);gap:16px;align-items:start}
+  @media(max-width:960px){.grid{grid-template-columns:1fr}}
+  section{padding:20px 22px}
+  h2{font-size:13px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;
+    color:var(--ink2);margin-bottom:14px;display:flex;align-items:center;gap:8px}
+  h2 .count{color:var(--bg0);background:var(--accent);border-radius:999px;
+    padding:1px 9px;font-size:12px;letter-spacing:0}
+  /* event + job rows */
+  .row{display:flex;gap:12px;padding:12px 12px;border-radius:12px;border:1px solid transparent}
+  .row + .row{margin-top:6px}
+  .row:hover{background:var(--glass2);border-color:var(--line)}
+  .row .body{flex:1;min-width:0}
+  .row .title{font-weight:650;font-size:15px;color:var(--ink)}
+  .row .title a{color:inherit;text-decoration:none}
+  .row .title a:hover{color:var(--cyan);text-decoration:underline}
+  .row .sub{font-size:13px;color:var(--ink2);margin-top:2px;display:flex;flex-wrap:wrap;gap:4px 14px}
+  .row .sub .co{color:var(--accent);font-weight:600}
+  .apply{align-self:center;flex:none;font-size:13px;font-weight:700;color:var(--bg0);
+    background:linear-gradient(135deg,var(--accent),var(--cyan));border-radius:10px;
+    padding:8px 14px;text-decoration:none;box-shadow:0 4px 16px rgba(80,160,255,.35)}
+  .apply:hover{filter:brightness(1.1)}
+  /* status chips: never color alone — dot + label */
+  .chip{flex:none;align-self:flex-start;display:inline-flex;align-items:center;gap:6px;
+    font-size:11px;font-weight:700;letter-spacing:.08em;border-radius:999px;padding:4px 10px;margin-top:2px}
+  .chip .d{width:7px;height:7px;border-radius:50%}
+  .chip.new{color:var(--good);background:rgba(53,224,141,.1);border:1px solid rgba(53,224,141,.35)}
+  .chip.new .d{background:var(--good)}
+  .chip.reopened{color:var(--info);background:rgba(90,184,255,.1);border:1px solid rgba(90,184,255,.35)}
+  .chip.reopened .d{background:var(--info)}
+  .chip.title_changed{color:var(--warn);background:rgba(255,209,102,.1);border:1px solid rgba(255,209,102,.35)}
+  .chip.title_changed .d{background:var(--warn)}
+  .tag2027{display:inline-block;font-size:11px;font-weight:700;color:var(--cyan);
+    border:1px solid rgba(127,240,255,.4);border-radius:6px;padding:1px 7px;margin-left:8px;vertical-align:2px}
+  .empty{color:var(--ink3);font-size:14px;padding:18px 6px;text-align:center}
+  /* company grid */
+  .cos{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px;margin-top:16px}
+  .co-chip{padding:12px 14px;border-radius:14px;background:var(--glass2);border:1px solid var(--line)}
+  .co-chip .n{font-size:13px;font-weight:650;color:var(--ink);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .co-chip .c{font-size:12px;color:var(--ink2);margin-top:2px}
+  .co-chip .c b{color:var(--good);font-weight:700}
+  .co-chip.zero .c b{color:var(--ink3)}
+  footer{margin-top:20px;padding:14px 22px;font-size:12.5px;color:var(--ink3)}
+  footer code{color:var(--ink2);background:rgba(122,170,255,.12);padding:2px 6px;border-radius:6px}
+  .banner{margin-bottom:16px;padding:12px 18px;font-size:13.5px;color:var(--warn);
+    border:1px solid rgba(255,209,102,.35);background:rgba(255,209,102,.07);border-radius:14px;display:none}
+  .banner b{color:var(--ink)}
+</style>
+</head>
+<body>
+
+<div class="banner glass" id="banner"></div>
+
+<header class="glass">
+  <div class="brand">
+    <h1>Internship Monitor</h1>
+    <div class="sub">Product Design · <b>Summer 2027</b> · 15 companies watched every 3 hours</div>
+  </div>
+  <div class="meta">
+    <span id="updated">—</span>
+    <span class="live" id="live"><span class="dot"></span><span id="liveText">LIVE</span></span>
+  </div>
+</header>
+
+<div class="tiles">
+  <div class="tile glass"><div class="k">Open Now</div><div class="v" id="tOpen">0</div><div class="hint">matching postings</div></div>
+  <div class="tile glass"><div class="k">New · 24h</div><div class="v accent" id="tNew">0</div><div class="hint">first seen today</div></div>
+  <div class="tile glass"><div class="k">Summer 2027</div><div class="v accent" id="t2027">0</div><div class="hint">explicitly tagged</div></div>
+  <div class="tile glass"><div class="k">Closed · 24h</div><div class="v" id="tClosed">0</div><div class="hint">removed postings</div></div>
+</div>
+
+<div class="grid">
+  <section class="glass">
+    <h2>Recent Alerts <span class="count" id="cAlerts">0</span></h2>
+    <div id="events"></div>
+  </section>
+
+  <section class="glass">
+    <h2>Open Internships <span class="count" id="cOpen">0</span></h2>
+    <div id="jobs"></div>
+    <h2 style="margin-top:22px">Companies</h2>
+    <div class="cos" id="cos"></div>
+  </section>
+</div>
+
+<footer class="glass">
+  Feed: <code id="feedSrc">—</code> · refreshes every 5 min ·
+  point this dashboard at your live feed with <code>?feed=https://raw.githubusercontent.com/&lt;you&gt;/&lt;repo&gt;/main/data/status.json</code>
+</footer>
+
+<script>
+/* ── CONFIG ─────────────────────────────────────────────────────────
+   After you push the repo to GitHub, set FEED_URL to your raw feed:
+   https://raw.githubusercontent.com/<user>/<repo>/main/data/status.json
+   (or just open the dashboard with ?feed=<that url>)               */
+const FEED_URL = "";
+
+const SAMPLE = {
+  generatedAt: new Date().toISOString(), timezone: "America/Chicago", companiesMonitored: 15,
+  counts: { open: 3, new24h: 2, closed24h: 0, summer2027: 1 },
+  recentEvents: [
+    { type:"new", company:"Google", title:"Product Design Intern - Summer 2027", location:"Mountain View, CA", url:"https://www.google.com/about/careers/", firstSeen:new Date().toISOString(), is2027:true, at:new Date().toISOString() },
+    { type:"new", company:"Visa", title:"UX Design Intern", location:"Austin, TX", url:"https://visa.wd5.myworkdayjobs.com/", firstSeen:new Date().toISOString(), is2027:false, at:new Date(Date.now()-36e5).toISOString() },
+    { type:"title_changed", company:"Roblox", title:"Product Design Intern (Undergrad)", location:"San Mateo, CA", url:"https://careers.roblox.com/jobs", firstSeen:new Date(Date.now()-864e5*3).toISOString(), is2027:false, at:new Date(Date.now()-72e5).toISOString() }
+  ],
+  openJobs: [
+    { company:"Google", title:"Product Design Intern - Summer 2027", location:"Mountain View, CA", url:"https://www.google.com/about/careers/", firstSeen:new Date().toISOString(), is2027:true },
+    { company:"Visa", title:"UX Design Intern", location:"Austin, TX", url:"https://visa.wd5.myworkdayjobs.com/", firstSeen:new Date().toISOString(), is2027:false },
+    { company:"Roblox", title:"Product Design Intern (Undergrad)", location:"San Mateo, CA", url:"https://careers.roblox.com/jobs", firstSeen:new Date(Date.now()-864e5*3).toISOString(), is2027:false }
+  ],
+  companies: ["Google","YouTube","Meta","Apple","Capital One","JPMorgan Chase","Roblox","Microsoft","Amazon","IBM","Adobe","American Express","Mastercard","Visa","Nike"]
+    .map(n => ({ name:n, openCount:{Google:1,Visa:1,Roblox:1}[n]||0, lastChecked:new Date().toISOString() }))
+};
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s??"").replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const CHIP = { new:"NEW", reopened:"REOPENED", title_changed:"TITLE CHANGED" };
+
+function fmtDate(iso, tz){ try{ return new Date(iso).toLocaleDateString("en-US",{timeZone:tz,month:"short",day:"numeric"});}catch{ return ""; } }
+function fmtTime(iso, tz){ try{ return new Date(iso).toLocaleString("en-US",{timeZone:tz,month:"short",day:"numeric",hour:"numeric",minute:"2-digit"});}catch{ return ""; } }
+
+function feedUrl(){
+  const p = new URLSearchParams(location.search).get("feed");
+  return p || FEED_URL;
+}
+
+function render(feed, isSample){
+  const tz = feed.timezone || "America/Chicago";
+  $("updated").textContent = "Updated " + fmtTime(feed.generatedAt, tz);
+  $("tOpen").textContent = feed.counts.open;
+  $("tNew").textContent = feed.counts.new24h;
+  $("t2027").textContent = feed.counts.summer2027;
+  $("tClosed").textContent = feed.counts.closed24h;
+
+  const live = $("live");
+  live.classList.toggle("sample", isSample);
+  $("liveText").textContent = isSample ? "SAMPLE DATA" : "LIVE";
+  const banner = $("banner");
+  if (isSample){
+    banner.style.display = "block";
+    banner.innerHTML = "<b>Showing sample data.</b> Once your monitor is running, open this page with <b>?feed=</b> pointing at your status.json (or set FEED_URL inside the file) and this becomes your live board.";
+  } else banner.style.display = "none";
+
+  const ev = feed.recentEvents || [];
+  $("cAlerts").textContent = ev.length;
+  $("events").innerHTML = ev.length ? ev.map(e => `
+    <div class="row">
+      <span class="chip ${esc(e.type)}"><span class="d"></span>${CHIP[e.type]||esc(e.type).toUpperCase()}</span>
+      <div class="body">
+        <div class="title"><a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a>${e.is2027?'<span class="tag2027">SUMMER 2027</span>':''}</div>
+        <div class="sub"><span class="co">${esc(e.company)}</span><span>${esc(e.location||"See posting")}</span><span>${fmtTime(e.at, tz)}</span></div>
+      </div>
+    </div>`).join("") : '<div class="empty">No alerts yet — quiet is normal until 2027 postings open (typically Aug–Oct 2026).</div>';
+
+  const jobs = feed.openJobs || [];
+  $("cOpen").textContent = jobs.length;
+  $("jobs").innerHTML = jobs.length ? jobs.map(j => `
+    <div class="row">
+      <div class="body">
+        <div class="title">${esc(j.title)}${j.is2027?'<span class="tag2027">SUMMER 2027</span>':''}</div>
+        <div class="sub"><span class="co">${esc(j.company)}</span><span>${esc(j.location||"See posting")}</span><span>first seen ${fmtDate(j.firstSeen, tz)}</span></div>
+      </div>
+      <a class="apply" href="${esc(j.url)}" target="_blank" rel="noopener">Apply →</a>
+    </div>`).join("") : '<div class="empty">Nothing open right now.</div>';
+
+  $("cos").innerHTML = (feed.companies||[]).map(c => `
+    <div class="co-chip ${c.openCount?'' :'zero'}">
+      <div class="n">${esc(c.name)}</div>
+      <div class="c"><b>${c.openCount}</b> open · ${c.lastChecked?fmtDate(c.lastChecked, tz):"never"}</div>
+    </div>`).join("");
+}
+
+async function load(){
+  const url = feedUrl();
+  $("feedSrc").textContent = url || "built-in sample";
+  if (!url){ render(SAMPLE, true); return; }
+  try{
+    const res = await fetch(url + (url.includes("?")?"&":"?") + "t=" + Date.now(), {cache:"no-store"});
+    if (!res.ok) throw new Error("HTTP " + res.status);
+    render(await res.json(), false);
+  }catch(err){
+    render(SAMPLE, true);
+    const b = $("banner");
+    b.style.display = "block";
+    b.innerHTML = "<b>Couldn't reach the live feed</b> (" + esc(err.message) + ") — showing sample data. Check the ?feed= URL.";
+  }
+}
+load();
+setInterval(load, 5*60*1000);
+</script>
+</body>
+</html>

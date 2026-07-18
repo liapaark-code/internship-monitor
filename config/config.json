@@ -1,0 +1,207 @@
+{
+  "schedule": {
+    "checkCron": "0 */3 * * *",
+    "summaryCron": "0 20 * * *",
+    "timezone": "America/Chicago"
+  },
+  "filtering": {
+    "mode": "loose",
+    "roleKeywords": [
+      "product design",
+      "product designer",
+      "ux design",
+      "ux designer",
+      "ux/ui",
+      "ui/ux",
+      "product design intern",
+      "experience design",
+      "interaction design",
+      "design technologist"
+    ],
+    "programKeywords": [
+      "summer 2027",
+      "internship",
+      "intern",
+      "student",
+      "university",
+      "2027"
+    ],
+    "seasonTags": ["summer 2027", "2027"],
+    "excludeKeywords": [
+      "manager",
+      "senior",
+      "staff",
+      "principal",
+      "lead ",
+      "director",
+      "mechanical",
+      "electrical",
+      "hardware",
+      "phd"
+    ]
+  },
+  "notifications": {
+    "sms": true,
+    "discord": true,
+    "widget": true,
+    "notifyOnlyRoleMatches": true
+  },
+  "scraping": {
+    "maxRetries": 3,
+    "baseDelayMs": 2000,
+    "navigationTimeoutMs": 45000,
+    "respectRobotsTxt": true,
+    "missesBeforeClosed": 2,
+    "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+  },
+  "widget": {
+    "feedOutputPaths": ["data/status.json", "widget/status.json"],
+    "maxRecentEvents": 25
+  },
+  "companies": [
+    {
+      "name": "Google",
+      "scraper": "googlecareers",
+      "enabled": true,
+      "urls": [
+        "https://www.google.com/about/careers/applications/jobs/results/?q=%22product%20design%22%20intern&target_level=INTERN_AND_APPRENTICE",
+        "https://www.google.com/about/careers/applications/jobs/results/?q=%22UX%20design%22%20intern&target_level=INTERN_AND_APPRENTICE",
+        "https://www.google.com/about/careers/applications/jobs/results/?q=%22interaction%20design%22%20intern&target_level=INTERN_AND_APPRENTICE"
+      ]
+    },
+    {
+      "name": "YouTube",
+      "scraper": "googlecareers",
+      "enabled": true,
+      "urls": [
+        "https://www.google.com/about/careers/applications/jobs/results/?company=YouTube&q=design%20intern",
+        "https://www.google.com/about/careers/applications/jobs/results/?company=YouTube&q=UX%20intern"
+      ]
+    },
+    {
+      "name": "Meta",
+      "scraper": "meta",
+      "enabled": true,
+      "urls": [
+        "https://www.metacareers.com/jobsearch/?q=product%20design%20intern&teams[]=University%20Grad%20-%20Engineering%2C%20Tech%20%26%20Design",
+        "https://www.metacareers.com/jobsearch/?q=UX%20intern"
+      ]
+    },
+    {
+      "name": "Apple",
+      "scraper": "apple",
+      "enabled": true,
+      "urls": [
+        "https://jobs.apple.com/en-us/search?search=product%20design%20intern&sort=relevance",
+        "https://jobs.apple.com/en-us/search?search=design%20internships&sort=relevance&team=internships-STDNT-INTRN"
+      ],
+      "pinnedUrls": [
+        "https://jobs.apple.com/en-us/details/200664000-3810/product-design-undergrad-internships?team=STDNT"
+      ]
+    },
+    {
+      "name": "Capital One",
+      "scraper": "capitalone",
+      "enabled": true,
+      "urls": [
+        "https://www.capitalonecareers.com/search-jobs/design%20intern",
+        "https://www.capitalonecareers.com/search-jobs/product%20design"
+      ]
+    },
+    {
+      "name": "JPMorgan Chase",
+      "scraper": "jpmorgan",
+      "enabled": true,
+      "urls": [
+        "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?keyword=product%20design%20intern",
+        "https://jpmc.fa.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs?keyword=UX%20design%20intern"
+      ]
+    },
+    {
+      "name": "Roblox",
+      "scraper": "roblox",
+      "enabled": true,
+      "urls": [
+        "https://careers.roblox.com/jobs?search=product+design",
+        "https://careers.roblox.com/jobs?search=UX+intern"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "scraper": "microsoft",
+      "enabled": true,
+      "urls": [
+        "https://gcsservices.careers.microsoft.com/search/api/v1/search?q=product%20design%20intern&l=en_us&pg=1&pgSz=20",
+        "https://gcsservices.careers.microsoft.com/search/api/v1/search?q=UX%20design%20intern&l=en_us&pg=1&pgSz=20"
+      ]
+    },
+    {
+      "name": "Amazon",
+      "scraper": "amazon",
+      "enabled": true,
+      "urls": [
+        "https://www.amazon.jobs/en/search.json?base_query=product%20design%20intern&result_limit=20&offset=0",
+        "https://www.amazon.jobs/en/search.json?base_query=UX%20design%20intern&result_limit=20&offset=0"
+      ]
+    },
+    {
+      "name": "IBM",
+      "scraper": "ibm",
+      "enabled": true,
+      "urls": [
+        "https://www.ibm.com/careers/search?q=product%20design%20intern",
+        "https://www.ibm.com/careers/search?q=UX%20intern"
+      ]
+    },
+    {
+      "name": "Adobe",
+      "scraper": "phenom",
+      "enabled": true,
+      "urls": [
+        "https://careers.adobe.com/us/en/search-results?keywords=product%20design%20intern",
+        "https://careers.adobe.com/us/en/search-results?keywords=experience%20design%20intern"
+      ]
+    },
+    {
+      "name": "American Express",
+      "scraper": "amex",
+      "enabled": true,
+      "urls": [
+        "https://aexp.eightfold.ai/careers?query=product%20design%20intern&domain=aexp.com",
+        "https://aexp.eightfold.ai/careers?query=UX%20design%20intern&domain=aexp.com"
+      ]
+    },
+    {
+      "name": "Mastercard",
+      "scraper": "phenom",
+      "enabled": true,
+      "urls": [
+        "https://careers.mastercard.com/us/en/search-results?keywords=product%20design%20intern",
+        "https://careers.mastercard.com/us/en/search-results?keywords=UX%20intern"
+      ]
+    },
+    {
+      "name": "Visa",
+      "scraper": "workday",
+      "enabled": true,
+      "workday": {
+        "host": "visa.wd5.myworkdayjobs.com",
+        "tenant": "visa",
+        "site": "Visa_Early_Careers"
+      },
+      "urls": [
+        "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Early_Careers"
+      ],
+      "searchTexts": ["product design intern", "UX design intern", "design intern"]
+    },
+    {
+      "name": "Nike",
+      "scraper": "nike",
+      "enabled": true,
+      "urls": [
+        "https://careers.nike.com/en/search-jobs?keyword=product%20design%20intern",
+        "https://careers.nike.com/jobs?keyword=design%20intern"
+      ]
+    }
+  ]
+}
