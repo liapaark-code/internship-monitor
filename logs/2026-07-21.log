@@ -1,0 +1,157 @@
+09:43  === Check cycle started ===
+09:43  Checking Google...
+09:44  No changes.
+09:44  Checking YouTube...
+09:44  No changes.
+09:44  Checking Meta...
+09:44  No changes.
+09:44  Checking Apple...
+09:44  New Internship Found. (Apple — Mac Product Design Intern)
+09:44  SMS DRY-RUN (no Twilio credentials) — message would be:
+09:44    | Product Design Internship Open!!!!
+09:44    | Company:
+09:44    | Apple
+09:44    | Title:
+09:44    | Mac Product Design Intern
+09:44    | Location:
+09:44    | LocationShanghai
+09:44    | Apply:
+09:44    | https://jobs.apple.com/en-us/details/200670275-3715/mac-product-design-intern
+09:44    | First Seen:
+09:44    | July 21, 2026
+09:44  Discord DRY-RUN (no webhook configured).
+09:44  New Internship Found. (Apple — Mac Product Design Intern)
+09:44  SMS DRY-RUN (no Twilio credentials) — message would be:
+09:44    | Product Design Internship Open!!!!
+09:44    | Company:
+09:44    | Apple
+09:44    | Title:
+09:44    | Mac Product Design Intern
+09:44    | Location:
+09:44    | LocationShanghai
+09:44    | Apply:
+09:44    | https://jobs.apple.com/en-us/details/200660092-3715/mac-product-design-intern
+09:44    | First Seen:
+09:44    | July 21, 2026
+09:44  Discord DRY-RUN (no webhook configured).
+09:44  New Internship Found. (Apple — Audio Product Design Intern)
+09:44  SMS DRY-RUN (no Twilio credentials) — message would be:
+09:44    | Product Design Internship Open!!!!
+09:44    | Company:
+09:44    | Apple
+09:44    | Title:
+09:44    | Audio Product Design Intern
+09:44    | Location:
+09:44    | LocationShanghai
+09:44    | Apply:
+09:44    | https://jobs.apple.com/en-us/details/200669923-3715/audio-product-design-intern
+09:44    | First Seen:
+09:44    | July 21, 2026
+09:44  Discord DRY-RUN (no webhook configured).
+09:44  New Internship Found. (Apple — Input Device Product Design Intern)
+09:44  SMS DRY-RUN (no Twilio credentials) — message would be:
+09:44    | Product Design Internship Open!!!!
+09:44    | Company:
+09:44    | Apple
+09:44    | Title:
+09:44    | Input Device Product Design Intern
+09:44    | Location:
+09:44    | LocationShenzhen
+09:44    | Apply:
+09:44    | https://jobs.apple.com/en-us/details/200663491-3435/input-device-product-design-intern
+09:44    | First Seen:
+09:44    | July 21, 2026
+09:44  Discord DRY-RUN (no webhook configured).
+09:44  New Internship Found. (Apple — Input Device Product Design Intern)
+09:44  SMS DRY-RUN (no Twilio credentials) — message would be:
+09:44    | Product Design Internship Open!!!!
+09:44    | Company:
+09:44    | Apple
+09:44    | Title:
+09:44    | Input Device Product Design Intern
+09:44    | Location:
+09:44    | LocationShanghai
+09:44    | Apply:
+09:44    | https://jobs.apple.com/en-us/details/200663491-3715/input-device-product-design-intern
+09:44    | First Seen:
+09:44    | July 21, 2026
+09:44  Discord DRY-RUN (no webhook configured).
+09:44  New Internship Found. (Apple — Product Design Masters Engineering Internships)
+09:44  SMS DRY-RUN (no Twilio credentials) — message would be:
+09:44    | Product Design Internship Open!!!!
+09:44    | Company:
+09:44    | Apple
+09:44    | Title:
+09:44    | Product Design Masters Engineering Internships
+09:44    | Location:
+09:44    | LocationVarious Locations within United States
+09:44    | Apply:
+09:44    | https://jobs.apple.com/en-us/details/200663996-3810/product-design-masters-engineering-internships
+09:44    | First Seen:
+09:44    | July 21, 2026
+09:44  Discord DRY-RUN (no webhook configured).
+09:44  New Internship Found. (Apple — Product Design Undergrad Internships)
+09:44  SMS DRY-RUN (no Twilio credentials) — message would be:
+09:44    | Product Design Internship Open!!!!
+09:44    | Company:
+09:44    | Apple
+09:44    | Title:
+09:44    | Product Design Undergrad Internships
+09:44    | Location:
+09:44    | LocationVarious Locations within United States
+09:44    | Apply:
+09:44    | https://jobs.apple.com/en-us/details/200664000-3810/product-design-undergrad-internships
+09:44    | First Seen:
+09:44    | July 21, 2026
+09:44  Discord DRY-RUN (no webhook configured).
+09:44  Checking Capital One...
+09:44  robots.txt disallows https://www.capitalonecareers.com/search-jobs/design%20intern — skipping this URL.
+09:44  robots.txt disallows https://www.capitalonecareers.com/search-jobs/product%20design — skipping this URL.
+09:44  Capital One: scrape failed — postings left untouched.
+09:44  Checking JPMorgan Chase...
+09:44  No changes.
+09:44  Checking Roblox...
+09:44  Retry 1/2 for Roblox in 3s...
+09:44  Retry 2/2 for Roblox in 5s...
+09:45  ERROR: Roblox: failed to scrape https://careers.roblox.com/jobs?search=product+design (page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://careers.roblox.com/jobs?search=product+design
+Call log:
+  - navigating to "https://careers.roblox.com/jobs?search=product+design", waiting until "domcontentloaded"
+)
+09:45  Retry 1/2 for Roblox in 2s...
+09:45  Retry 2/2 for Roblox in 4s...
+09:45  ERROR: Roblox: failed to scrape https://careers.roblox.com/jobs?search=UX+intern (page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://careers.roblox.com/jobs?search=UX+intern
+Call log:
+  - navigating to "https://careers.roblox.com/jobs?search=UX+intern", waiting until "domcontentloaded"
+)
+09:45  Roblox: scrape failed — postings left untouched.
+09:45  Checking Microsoft...
+09:45  robots.txt unavailable for https://gcsservices.careers.microsoft.com; proceeding politely.
+09:45  Retry 1/2 for Microsoft in 2s...
+09:45  Retry 2/2 for Microsoft in 4s...
+09:45  ERROR: Microsoft: failed to scrape https://gcsservices.careers.microsoft.com/search/api/v1/search?q=product%20design%20intern&l=en_us&pg=1&pgSz=20 (page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://gcsservices.careers.microsoft.com/search/api/v1/search?q=product%20design%20intern&l=en_us&pg=1&pgSz=20
+Call log:
+  - navigating to "https://gcsservices.careers.microsoft.com/search/api/v1/search?q=product%20design%20intern&l=en_us&pg=1&pgSz=20", waiting until "domcontentloaded"
+)
+09:45  Retry 1/2 for Microsoft in 2s...
+09:45  Retry 2/2 for Microsoft in 4s...
+09:45  ERROR: Microsoft: failed to scrape https://gcsservices.careers.microsoft.com/search/api/v1/search?q=UX%20design%20intern&l=en_us&pg=1&pgSz=20 (page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://gcsservices.careers.microsoft.com/search/api/v1/search?q=UX%20design%20intern&l=en_us&pg=1&pgSz=20
+Call log:
+  - navigating to "https://gcsservices.careers.microsoft.com/search/api/v1/search?q=UX%20design%20intern&l=en_us&pg=1&pgSz=20", waiting until "domcontentloaded"
+)
+09:45  Microsoft: scrape failed — postings left untouched.
+09:45  Checking Amazon...
+09:45  No changes.
+09:45  Checking IBM...
+09:46  No changes.
+09:46  Checking Adobe...
+09:46  No changes.
+09:46  Checking American Express...
+09:47  No changes.
+09:47  Checking Mastercard...
+09:47  No changes.
+09:47  Checking Visa...
+09:47  No changes.
+09:47  Checking Nike...
+09:48  No changes.
+09:48  Widget feed updated.
+09:48  === Check cycle finished (7 notification(s)) ===

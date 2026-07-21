@@ -1,0 +1,218 @@
+{
+  "generatedAt": "2026-07-21T14:48:05.017Z",
+  "timezone": "America/Chicago",
+  "companiesMonitored": 15,
+  "counts": {
+    "open": 7,
+    "new24h": 7,
+    "closed24h": 0,
+    "summer2027": 0
+  },
+  "recentEvents": [
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "Product Design Undergrad Internships",
+      "location": "LocationVarious Locations within United States",
+      "url": "https://jobs.apple.com/en-us/details/200664000-3810/product-design-undergrad-internships",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false,
+      "at": "2026-07-21T14:44:44.297Z"
+    },
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "Product Design Masters Engineering Internships",
+      "location": "LocationVarious Locations within United States",
+      "url": "https://jobs.apple.com/en-us/details/200663996-3810/product-design-masters-engineering-internships",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false,
+      "at": "2026-07-21T14:44:44.287Z"
+    },
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "Input Device Product Design Intern",
+      "location": "LocationShanghai",
+      "url": "https://jobs.apple.com/en-us/details/200663491-3715/input-device-product-design-intern",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false,
+      "at": "2026-07-21T14:44:44.278Z"
+    },
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "Input Device Product Design Intern",
+      "location": "LocationShenzhen",
+      "url": "https://jobs.apple.com/en-us/details/200663491-3435/input-device-product-design-intern",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false,
+      "at": "2026-07-21T14:44:44.269Z"
+    },
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "Audio Product Design Intern",
+      "location": "LocationShanghai",
+      "url": "https://jobs.apple.com/en-us/details/200669923-3715/audio-product-design-intern",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false,
+      "at": "2026-07-21T14:44:44.259Z"
+    },
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "Mac Product Design Intern",
+      "location": "LocationShanghai",
+      "url": "https://jobs.apple.com/en-us/details/200660092-3715/mac-product-design-intern",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false,
+      "at": "2026-07-21T14:44:44.251Z"
+    },
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "Mac Product Design Intern",
+      "location": "LocationShanghai",
+      "url": "https://jobs.apple.com/en-us/details/200670275-3715/mac-product-design-intern",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false,
+      "at": "2026-07-21T14:44:44.243Z"
+    }
+  ],
+  "openJobs": [
+    {
+      "company": "Apple",
+      "title": "Product Design Undergrad Internships",
+      "location": "LocationVarious Locations within United States",
+      "url": "https://jobs.apple.com/en-us/details/200664000-3810/product-design-undergrad-internships",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false
+    },
+    {
+      "company": "Apple",
+      "title": "Product Design Masters Engineering Internships",
+      "location": "LocationVarious Locations within United States",
+      "url": "https://jobs.apple.com/en-us/details/200663996-3810/product-design-masters-engineering-internships",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false
+    },
+    {
+      "company": "Apple",
+      "title": "Input Device Product Design Intern",
+      "location": "LocationShanghai",
+      "url": "https://jobs.apple.com/en-us/details/200663491-3715/input-device-product-design-intern",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false
+    },
+    {
+      "company": "Apple",
+      "title": "Input Device Product Design Intern",
+      "location": "LocationShenzhen",
+      "url": "https://jobs.apple.com/en-us/details/200663491-3435/input-device-product-design-intern",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false
+    },
+    {
+      "company": "Apple",
+      "title": "Audio Product Design Intern",
+      "location": "LocationShanghai",
+      "url": "https://jobs.apple.com/en-us/details/200669923-3715/audio-product-design-intern",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false
+    },
+    {
+      "company": "Apple",
+      "title": "Mac Product Design Intern",
+      "location": "LocationShanghai",
+      "url": "https://jobs.apple.com/en-us/details/200660092-3715/mac-product-design-intern",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false
+    },
+    {
+      "company": "Apple",
+      "title": "Mac Product Design Intern",
+      "location": "LocationShanghai",
+      "url": "https://jobs.apple.com/en-us/details/200670275-3715/mac-product-design-intern",
+      "firstSeen": "2026-07-21T14:44:44.232Z",
+      "is2027": false
+    }
+  ],
+  "companies": [
+    {
+      "name": "Google",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "YouTube",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "Meta",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "Apple",
+      "openCount": 7,
+      "lastChecked": "2026-07-21T14:44:44.232Z"
+    },
+    {
+      "name": "Capital One",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "JPMorgan Chase",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "Roblox",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "Microsoft",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "Amazon",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "IBM",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "Adobe",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "American Express",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "Mastercard",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "Visa",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "Nike",
+      "openCount": 0,
+      "lastChecked": null
+    }
+  ]
+}
