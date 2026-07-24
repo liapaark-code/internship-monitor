@@ -1,14 +1,44 @@
 {
-  "generatedAt": "2026-07-24T08:28:22.774Z",
+  "generatedAt": "2026-07-24T11:10:49.740Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 15,
   "counts": {
-    "open": 7,
-    "new24h": 0,
+    "open": 10,
+    "new24h": 3,
     "closed24h": 0,
     "summer2027": 0
   },
   "recentEvents": [
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "Product Designer, Internal Tools",
+      "location": "LocationSeattle",
+      "url": "https://jobs.apple.com/en-us/details/200671845-3337/product-designer-internal-tools",
+      "firstSeen": "2026-07-24T11:07:26.961Z",
+      "is2027": false,
+      "at": "2026-07-24T11:07:26.992Z"
+    },
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "Product Designer, Internal Tools",
+      "location": "LocationCulver City",
+      "url": "https://jobs.apple.com/en-us/details/200671845-0670/product-designer-internal-tools",
+      "firstSeen": "2026-07-24T11:07:26.961Z",
+      "is2027": false,
+      "at": "2026-07-24T11:07:26.982Z"
+    },
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "Product Designer, Internal Tools",
+      "location": "LocationCupertino",
+      "url": "https://jobs.apple.com/en-us/details/200671845-0836/product-designer-internal-tools",
+      "firstSeen": "2026-07-24T11:07:26.961Z",
+      "is2027": false,
+      "at": "2026-07-24T11:07:26.973Z"
+    },
     {
       "type": "new",
       "company": "Apple",
@@ -81,6 +111,30 @@
     }
   ],
   "openJobs": [
+    {
+      "company": "Apple",
+      "title": "Product Designer, Internal Tools",
+      "location": "LocationSeattle",
+      "url": "https://jobs.apple.com/en-us/details/200671845-3337/product-designer-internal-tools",
+      "firstSeen": "2026-07-24T11:07:26.961Z",
+      "is2027": false
+    },
+    {
+      "company": "Apple",
+      "title": "Product Designer, Internal Tools",
+      "location": "LocationCulver City",
+      "url": "https://jobs.apple.com/en-us/details/200671845-0670/product-designer-internal-tools",
+      "firstSeen": "2026-07-24T11:07:26.961Z",
+      "is2027": false
+    },
+    {
+      "company": "Apple",
+      "title": "Product Designer, Internal Tools",
+      "location": "LocationCupertino",
+      "url": "https://jobs.apple.com/en-us/details/200671845-0836/product-designer-internal-tools",
+      "firstSeen": "2026-07-24T11:07:26.961Z",
+      "is2027": false
+    },
     {
       "company": "Apple",
       "title": "Product Design Undergrad Internships",
@@ -156,8 +210,8 @@
     },
     {
       "name": "Apple",
-      "openCount": 7,
-      "lastChecked": "2026-07-24T08:24:59.813Z"
+      "openCount": 10,
+      "lastChecked": "2026-07-24T11:07:26.961Z"
     },
     {
       "name": "Capital One",

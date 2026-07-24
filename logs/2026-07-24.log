@@ -118,3 +118,110 @@ Call log:
 03:28  No changes.
 03:28  Widget feed updated.
 03:28  === Check cycle finished (0 notification(s)) ===
+06:04  === Check cycle started ===
+06:04  Checking Google...
+06:04  No changes.
+06:04  Checking YouTube...
+06:04  No changes.
+06:04  Checking Meta...
+06:04  No changes.
+06:04  Checking Apple...
+06:05  Retry 1/2 for Apple in 2s...
+06:06  Retry 2/2 for Apple in 4s...
+06:07  ERROR: Apple: failed to scrape https://jobs.apple.com/en-us/details/200664000-3810/product-design-undergrad-internships?team=STDNT (page.goto: Timeout 45000ms exceeded.
+Call log:
+  - navigating to "https://jobs.apple.com/en-us/details/200664000-3810/product-design-undergrad-internships?team=STDNT", waiting until "domcontentloaded"
+)
+06:07  New Internship Found. (Apple — Product Designer, Internal Tools)
+06:07  SMS DRY-RUN (no Twilio credentials) — message would be:
+06:07    | Product Design Internship Open!!!!
+06:07    | Company:
+06:07    | Apple
+06:07    | Title:
+06:07    | Product Designer, Internal Tools
+06:07    | Location:
+06:07    | LocationCupertino
+06:07    | Apply:
+06:07    | https://jobs.apple.com/en-us/details/200671845-0836/product-designer-internal-tools
+06:07    | First Seen:
+06:07    | July 24, 2026
+06:07  Discord DRY-RUN (no webhook configured).
+06:07  New Internship Found. (Apple — Product Designer, Internal Tools)
+06:07  SMS DRY-RUN (no Twilio credentials) — message would be:
+06:07    | Product Design Internship Open!!!!
+06:07    | Company:
+06:07    | Apple
+06:07    | Title:
+06:07    | Product Designer, Internal Tools
+06:07    | Location:
+06:07    | LocationCulver City
+06:07    | Apply:
+06:07    | https://jobs.apple.com/en-us/details/200671845-0670/product-designer-internal-tools
+06:07    | First Seen:
+06:07    | July 24, 2026
+06:07  Discord DRY-RUN (no webhook configured).
+06:07  New Internship Found. (Apple — Product Designer, Internal Tools)
+06:07  SMS DRY-RUN (no Twilio credentials) — message would be:
+06:07    | Product Design Internship Open!!!!
+06:07    | Company:
+06:07    | Apple
+06:07    | Title:
+06:07    | Product Designer, Internal Tools
+06:07    | Location:
+06:07    | LocationSeattle
+06:07    | Apply:
+06:07    | https://jobs.apple.com/en-us/details/200671845-3337/product-designer-internal-tools
+06:07    | First Seen:
+06:07    | July 24, 2026
+06:07  Discord DRY-RUN (no webhook configured).
+06:07  Checking Capital One...
+06:07  robots.txt disallows https://www.capitalonecareers.com/search-jobs/design%20intern — skipping this URL.
+06:07  robots.txt disallows https://www.capitalonecareers.com/search-jobs/product%20design — skipping this URL.
+06:07  Capital One: scrape failed — postings left untouched.
+06:07  Checking JPMorgan Chase...
+06:07  No changes.
+06:07  Checking Roblox...
+06:07  Retry 1/2 for Roblox in 2s...
+06:07  Retry 2/2 for Roblox in 5s...
+06:07  ERROR: Roblox: failed to scrape https://careers.roblox.com/jobs?search=product+design (page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://careers.roblox.com/jobs?search=product+design
+Call log:
+  - navigating to "https://careers.roblox.com/jobs?search=product+design", waiting until "domcontentloaded"
+)
+06:07  Retry 1/2 for Roblox in 3s...
+06:07  Retry 2/2 for Roblox in 4s...
+06:07  ERROR: Roblox: failed to scrape https://careers.roblox.com/jobs?search=UX+intern (page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://careers.roblox.com/jobs?search=UX+intern
+Call log:
+  - navigating to "https://careers.roblox.com/jobs?search=UX+intern", waiting until "domcontentloaded"
+)
+06:07  Roblox: scrape failed — postings left untouched.
+06:07  Checking Microsoft...
+06:07  robots.txt unavailable for https://gcsservices.careers.microsoft.com; proceeding politely.
+06:07  Retry 1/2 for Microsoft in 2s...
+06:07  Retry 2/2 for Microsoft in 5s...
+06:08  ERROR: Microsoft: failed to scrape https://gcsservices.careers.microsoft.com/search/api/v1/search?q=product%20design%20intern&l=en_us&pg=1&pgSz=20 (page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://gcsservices.careers.microsoft.com/search/api/v1/search?q=product%20design%20intern&l=en_us&pg=1&pgSz=20
+Call log:
+  - navigating to "https://gcsservices.careers.microsoft.com/search/api/v1/search?q=product%20design%20intern&l=en_us&pg=1&pgSz=20", waiting until "domcontentloaded"
+)
+06:08  Retry 1/2 for Microsoft in 2s...
+06:08  Retry 2/2 for Microsoft in 5s...
+06:08  ERROR: Microsoft: failed to scrape https://gcsservices.careers.microsoft.com/search/api/v1/search?q=UX%20design%20intern&l=en_us&pg=1&pgSz=20 (page.goto: net::ERR_CERT_COMMON_NAME_INVALID at https://gcsservices.careers.microsoft.com/search/api/v1/search?q=UX%20design%20intern&l=en_us&pg=1&pgSz=20
+Call log:
+  - navigating to "https://gcsservices.careers.microsoft.com/search/api/v1/search?q=UX%20design%20intern&l=en_us&pg=1&pgSz=20", waiting until "domcontentloaded"
+)
+06:08  Microsoft: scrape failed — postings left untouched.
+06:08  Checking Amazon...
+06:08  No changes.
+06:08  Checking IBM...
+06:09  No changes.
+06:09  Checking Adobe...
+06:09  No changes.
+06:09  Checking American Express...
+06:10  No changes.
+06:10  Checking Mastercard...
+06:10  No changes.
+06:10  Checking Visa...
+06:10  No changes.
+06:10  Checking Nike...
+06:10  No changes.
+06:10  Widget feed updated.
+06:10  === Check cycle finished (3 notification(s)) ===
