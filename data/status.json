@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-07-29T04:01:04.815Z",
+  "generatedAt": "2026-07-29T05:55:14.135Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 15,
   "counts": {
-    "open": 10,
+    "open": 7,
     "new24h": 0,
-    "closed24h": 0,
+    "closed24h": 3,
     "summer2027": 0
   },
   "recentEvents": [
@@ -113,30 +113,6 @@
   "openJobs": [
     {
       "company": "Apple",
-      "title": "Product Designer, Internal Tools",
-      "location": "LocationSeattle",
-      "url": "https://jobs.apple.com/en-us/details/200671845-3337/product-designer-internal-tools",
-      "firstSeen": "2026-07-24T11:07:26.961Z",
-      "is2027": false
-    },
-    {
-      "company": "Apple",
-      "title": "Product Designer, Internal Tools",
-      "location": "LocationCulver City",
-      "url": "https://jobs.apple.com/en-us/details/200671845-0670/product-designer-internal-tools",
-      "firstSeen": "2026-07-24T11:07:26.961Z",
-      "is2027": false
-    },
-    {
-      "company": "Apple",
-      "title": "Product Designer, Internal Tools",
-      "location": "LocationCupertino",
-      "url": "https://jobs.apple.com/en-us/details/200671845-0836/product-designer-internal-tools",
-      "firstSeen": "2026-07-24T11:07:26.961Z",
-      "is2027": false
-    },
-    {
-      "company": "Apple",
       "title": "Product Design Undergrad Internships",
       "location": "LocationVarious Locations within United States",
       "url": "https://jobs.apple.com/en-us/details/200664000-3810/product-design-undergrad-internships",
@@ -210,8 +186,8 @@
     },
     {
       "name": "Apple",
-      "openCount": 10,
-      "lastChecked": "2026-07-29T02:24:15.890Z"
+      "openCount": 7,
+      "lastChecked": "2026-07-29T05:51:51.393Z"
     },
     {
       "name": "Capital One",
