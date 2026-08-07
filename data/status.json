@@ -1,14 +1,24 @@
 {
-  "generatedAt": "2026-08-07T04:57:56.990Z",
+  "generatedAt": "2026-08-07T07:16:23.750Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 15,
   "counts": {
-    "open": 8,
-    "new24h": 0,
+    "open": 9,
+    "new24h": 1,
     "closed24h": 0,
     "summer2027": 0
   },
   "recentEvents": [
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "Audio Product Design Intern",
+      "location": "LocationShanghai",
+      "url": "https://jobs.apple.com/en-us/details/200675594-3715/audio-product-design-intern",
+      "firstSeen": "2026-08-07T07:13:01.681Z",
+      "is2027": false,
+      "at": "2026-08-07T07:13:01.696Z"
+    },
     {
       "type": "new",
       "company": "Apple",
@@ -123,6 +133,14 @@
   "openJobs": [
     {
       "company": "Apple",
+      "title": "Audio Product Design Intern",
+      "location": "LocationShanghai",
+      "url": "https://jobs.apple.com/en-us/details/200675594-3715/audio-product-design-intern",
+      "firstSeen": "2026-08-07T07:13:01.681Z",
+      "is2027": false
+    },
+    {
+      "company": "Apple",
       "title": "Product Design Engineering Intern",
       "location": "LocationTaipei",
       "url": "https://jobs.apple.com/en-us/details/200674739-3950/product-design-engineering-intern",
@@ -204,8 +222,8 @@
     },
     {
       "name": "Apple",
-      "openCount": 8,
-      "lastChecked": "2026-08-07T04:54:37.781Z"
+      "openCount": 9,
+      "lastChecked": "2026-08-07T07:13:01.681Z"
     },
     {
       "name": "Capital One",
