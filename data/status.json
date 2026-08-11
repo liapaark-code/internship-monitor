@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T07:06:47.948Z",
+  "generatedAt": "2026-08-11T10:03:29.054Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 15,
   "counts": {
@@ -223,7 +223,7 @@
     {
       "name": "Apple",
       "openCount": 9,
-      "lastChecked": "2026-08-11T07:03:22.992Z"
+      "lastChecked": "2026-08-11T10:00:01.038Z"
     },
     {
       "name": "Capital One",
