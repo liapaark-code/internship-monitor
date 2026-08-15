@@ -418,3 +418,25 @@ Call log:
 20:08  No changes.
 20:08  Widget feed updated.
 20:08  === Check cycle finished (0 notification(s)) ===
+21:11  === Daily summary ===
+21:11    Internship Monitor Daily Summary
+21:11    Checked:
+21:11    15 companies
+21:11    New jobs:
+21:11    0
+21:11    Still Open:
+21:11    9
+21:11    Closed Today:
+21:11    0
+21:11  SMS DRY-RUN — daily summary would be:
+21:11    | Internship Monitor Daily Summary
+21:11    | Checked:
+21:11    | 15 companies
+21:11    | New jobs:
+21:11    | 0
+21:11    | Still Open:
+21:11    | 9
+21:11    | Closed Today:
+21:11    | 0
+21:11  Discord DRY-RUN (no webhook configured).
+21:11  Widget feed updated.
