@@ -26,7 +26,10 @@
       "university",
       "2027"
     ],
-    "seasonTags": ["summer 2027", "2027"],
+    "seasonTags": [
+      "summer 2027",
+      "2027"
+    ],
     "excludeKeywords": [
       "manager",
       "senior",
@@ -55,7 +58,10 @@
     "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
   },
   "widget": {
-    "feedOutputPaths": ["data/status.json", "widget/status.json"],
+    "feedOutputPaths": [
+      "data/status.json",
+      "widget/status.json"
+    ],
     "maxRecentEvents": 25
   },
   "companies": [
@@ -192,7 +198,11 @@
       "urls": [
         "https://visa.wd5.myworkdayjobs.com/en-US/Visa_Early_Careers"
       ],
-      "searchTexts": ["product design intern", "UX design intern", "design intern"]
+      "searchTexts": [
+        "product design intern",
+        "UX design intern",
+        "design intern"
+      ]
     },
     {
       "name": "Nike",
@@ -201,6 +211,33 @@
       "urls": [
         "https://careers.nike.com/en/search-jobs?keyword=product%20design%20intern",
         "https://careers.nike.com/jobs?keyword=design%20intern"
+      ]
+    },
+    {
+      "name": "Spotify",
+      "scraper": "generic",
+      "enabled": true,
+      "urls": [
+        "https://www.lifeatspotify.com/start-your-journey/students",
+        "https://www.lifeatspotify.com/jobs?q=design%20intern"
+      ]
+    },
+    {
+      "name": "Tesla",
+      "scraper": "generic",
+      "enabled": true,
+      "urls": [
+        "https://www.tesla.com/careers/search/?type=intern&site=US",
+        "https://www.tesla.com/careers/search/?query=design%20intern&site=US"
+      ]
+    },
+    {
+      "name": "Warner Bros. Discovery",
+      "scraper": "phenom",
+      "enabled": true,
+      "urls": [
+        "https://careers.wbd.com/global/en/search-results?keywords=product%20design%20intern",
+        "https://careers.wbd.com/global/en/search-results?keywords=UX%20design%20intern"
       ]
     }
   ]
