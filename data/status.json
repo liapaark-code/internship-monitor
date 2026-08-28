@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-08-27T21:41:17.222Z",
+  "generatedAt": "2026-08-28T00:19:53.167Z",
   "timezone": "America/Chicago",
-  "companiesMonitored": 15,
+  "companiesMonitored": 18,
   "counts": {
     "open": 8,
     "new24h": 0,
@@ -215,7 +215,7 @@
     {
       "name": "Apple",
       "openCount": 8,
-      "lastChecked": "2026-08-27T21:38:39.512Z"
+      "lastChecked": "2026-08-28T00:16:02.088Z"
     },
     {
       "name": "Capital One",
@@ -269,6 +269,21 @@
     },
     {
       "name": "Nike",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "Spotify",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "Tesla",
+      "openCount": 0,
+      "lastChecked": null
+    },
+    {
+      "name": "Warner Bros. Discovery",
       "openCount": 0,
       "lastChecked": null
     }
