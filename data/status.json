@@ -1,14 +1,24 @@
 {
-  "generatedAt": "2026-09-01T18:14:55.427Z",
+  "generatedAt": "2026-09-01T23:05:30.005Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 8,
-    "new24h": 0,
+    "open": 9,
+    "new24h": 1,
     "closed24h": 0,
-    "summer2027": 0
+    "summer2027": 1
   },
   "recentEvents": [
+    {
+      "type": "new",
+      "company": "Google",
+      "title": "User Experience Design Apprenticeship, February 2027 Start",
+      "location": "placeNew York, NY, USA",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/79970343875158726-user-experience-design-apprenticeship-february-2027-start",
+      "firstSeen": "2026-09-01T23:00:34.305Z",
+      "is2027": true,
+      "at": "2026-09-01T23:00:34.319Z"
+    },
     {
       "type": "new",
       "company": "Apple",
@@ -132,6 +142,14 @@
   ],
   "openJobs": [
     {
+      "company": "Google",
+      "title": "User Experience Design Apprenticeship, February 2027 Start",
+      "location": "placeNew York, NY, USA",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/79970343875158726-user-experience-design-apprenticeship-february-2027-start",
+      "firstSeen": "2026-09-01T23:00:34.305Z",
+      "is2027": true
+    },
+    {
       "company": "Apple",
       "title": "Product Design Engineering Intern",
       "location": "LocationTaipei",
@@ -199,8 +217,8 @@
   "companies": [
     {
       "name": "Google",
-      "openCount": 0,
-      "lastChecked": null
+      "openCount": 1,
+      "lastChecked": "2026-09-01T23:00:34.305Z"
     },
     {
       "name": "YouTube",
@@ -215,7 +233,7 @@
     {
       "name": "Apple",
       "openCount": 8,
-      "lastChecked": "2026-09-01T18:10:35.142Z"
+      "lastChecked": "2026-09-01T23:01:07.390Z"
     },
     {
       "name": "Capital One",
