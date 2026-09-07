@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-07T14:50:46.223Z",
+  "generatedAt": "2026-09-07T19:05:03.105Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
@@ -218,7 +218,7 @@
     {
       "name": "Google",
       "openCount": 1,
-      "lastChecked": "2026-09-07T14:46:41.621Z"
+      "lastChecked": "2026-09-07T19:00:11.328Z"
     },
     {
       "name": "YouTube",
@@ -233,7 +233,7 @@
     {
       "name": "Apple",
       "openCount": 8,
-      "lastChecked": "2026-09-07T14:47:14.203Z"
+      "lastChecked": "2026-09-07T19:00:45.295Z"
     },
     {
       "name": "Capital One",
