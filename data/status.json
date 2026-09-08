@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-08T07:56:05.442Z",
+  "generatedAt": "2026-09-08T13:24:14.182Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 9,
+    "open": 8,
     "new24h": 0,
-    "closed24h": 0,
+    "closed24h": 1,
     "summer2027": 1
   },
   "recentEvents": [
@@ -204,21 +204,13 @@
       "url": "https://jobs.apple.com/en-us/details/200660092-3715/mac-product-design-intern",
       "firstSeen": "2026-07-21T14:44:44.232Z",
       "is2027": false
-    },
-    {
-      "company": "Apple",
-      "title": "Mac Product Design Intern",
-      "location": "LocationShanghai",
-      "url": "https://jobs.apple.com/en-us/details/200670275-3715/mac-product-design-intern",
-      "firstSeen": "2026-07-21T14:44:44.232Z",
-      "is2027": false
     }
   ],
   "companies": [
     {
       "name": "Google",
       "openCount": 1,
-      "lastChecked": "2026-09-08T07:52:08.220Z"
+      "lastChecked": "2026-09-08T13:19:54.649Z"
     },
     {
       "name": "YouTube",
@@ -232,8 +224,8 @@
     },
     {
       "name": "Apple",
-      "openCount": 8,
-      "lastChecked": "2026-09-08T07:52:40.985Z"
+      "openCount": 7,
+      "lastChecked": "2026-09-08T13:20:33.321Z"
     },
     {
       "name": "Capital One",
