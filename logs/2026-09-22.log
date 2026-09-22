@@ -1,0 +1,22 @@
+24:42  === Daily summary ===
+24:42    Internship Monitor Daily Summary
+24:42    Checked:
+24:42    18 companies
+24:42    New jobs:
+24:42    0
+24:42    Still Open:
+24:42    11
+24:42    Closed Today:
+24:42    0
+24:42  SMS DRY-RUN — daily summary would be:
+24:42    | Internship Monitor Daily Summary
+24:42    | Checked:
+24:42    | 18 companies
+24:42    | New jobs:
+24:42    | 0
+24:42    | Still Open:
+24:42    | 11
+24:42    | Closed Today:
+24:42    | 0
+24:42  Discord DRY-RUN (no webhook configured).
+24:42  Widget feed updated.
