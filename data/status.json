@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-27T16:26:50.459Z",
+  "generatedAt": "2026-09-27T20:56:21.218Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 10,
+    "open": 9,
     "new24h": 0,
-    "closed24h": 0,
+    "closed24h": 1,
     "summer2027": 2
   },
   "recentEvents": [
@@ -172,14 +172,6 @@
   ],
   "openJobs": [
     {
-      "company": "Apple",
-      "title": "Product Designer - Apple Services Design, International",
-      "location": "LocationLondon",
-      "url": "https://jobs.apple.com/en-us/details/200683762-2114/product-designer-apple-services-design-international",
-      "firstSeen": "2026-09-15T20:52:48.948Z",
-      "is2027": false
-    },
-    {
       "company": "Google",
       "title": "User Experience Design Intern, BS/MS, Summer 2027",
       "location": "placeMountain View, CA, USA; Ann Arbor, MI, USA; +30 more; +29 more",
@@ -256,7 +248,7 @@
     {
       "name": "Google",
       "openCount": 2,
-      "lastChecked": "2026-09-27T16:22:43.094Z"
+      "lastChecked": "2026-09-27T20:51:23.084Z"
     },
     {
       "name": "YouTube",
@@ -270,8 +262,8 @@
     },
     {
       "name": "Apple",
-      "openCount": 8,
-      "lastChecked": "2026-09-27T16:23:18.058Z"
+      "openCount": 7,
+      "lastChecked": "2026-09-27T20:51:56.431Z"
     },
     {
       "name": "Capital One",
