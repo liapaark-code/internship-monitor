@@ -1,14 +1,24 @@
 {
-  "generatedAt": "2026-10-15T05:27:53.826Z",
+  "generatedAt": "2026-10-15T10:54:54.915Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 8,
-    "new24h": 1,
+    "open": 9,
+    "new24h": 2,
     "closed24h": 0,
-    "summer2027": 0
+    "summer2027": 1
   },
   "recentEvents": [
+    {
+      "type": "new",
+      "company": "Google",
+      "title": "Product Design Engineering Intern, 2027",
+      "location": "placeTaipei, Taiwan; New Taipei, Banqiao District, New Taipei City, Taiwan",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/90179993312600774-product-design-engineering-intern-2027",
+      "firstSeen": "2026-10-15T10:50:28.065Z",
+      "is2027": true,
+      "at": "2026-10-15T10:50:28.075Z"
+    },
     {
       "type": "new",
       "company": "Amazon",
@@ -182,6 +192,14 @@
   ],
   "openJobs": [
     {
+      "company": "Google",
+      "title": "Product Design Engineering Intern, 2027",
+      "location": "placeTaipei, Taiwan; New Taipei, Banqiao District, New Taipei City, Taiwan",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/90179993312600774-product-design-engineering-intern-2027",
+      "firstSeen": "2026-10-15T10:50:28.065Z",
+      "is2027": true
+    },
+    {
       "company": "Amazon",
       "title": "UX Designer Intern, AUTA",
       "location": "Mexico City, Mexico City, MEX",
@@ -249,8 +267,8 @@
   "companies": [
     {
       "name": "Google",
-      "openCount": 0,
-      "lastChecked": "2026-10-12T20:53:42.344Z"
+      "openCount": 1,
+      "lastChecked": "2026-10-15T10:50:28.065Z"
     },
     {
       "name": "YouTube",
@@ -265,7 +283,7 @@
     {
       "name": "Apple",
       "openCount": 7,
-      "lastChecked": "2026-10-15T03:06:27.700Z"
+      "lastChecked": "2026-10-15T10:51:01.302Z"
     },
     {
       "name": "Capital One",
@@ -290,7 +308,7 @@
     {
       "name": "Amazon",
       "openCount": 1,
-      "lastChecked": "2026-10-15T03:07:18.916Z"
+      "lastChecked": "2026-10-15T10:51:53.959Z"
     },
     {
       "name": "IBM",
