@@ -1,14 +1,24 @@
 {
-  "generatedAt": "2026-10-19T05:34:29.349Z",
+  "generatedAt": "2026-10-19T12:08:10.256Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 9,
-    "new24h": 0,
+    "open": 10,
+    "new24h": 1,
     "closed24h": 0,
     "summer2027": 1
   },
   "recentEvents": [
+    {
+      "type": "new",
+      "company": "Amazon",
+      "title": "UX Design Intern Luxembourg, Interaction Design",
+      "location": "Luxembourg, LUX",
+      "url": "https://www.amazon.jobs/en/jobs/10582414/ux-design-intern-luxembourg-interaction-design",
+      "firstSeen": "2026-10-19T12:05:11.109Z",
+      "is2027": false,
+      "at": "2026-10-19T12:05:11.119Z"
+    },
     {
       "type": "new",
       "company": "Google",
@@ -192,6 +202,14 @@
   ],
   "openJobs": [
     {
+      "company": "Amazon",
+      "title": "UX Design Intern Luxembourg, Interaction Design",
+      "location": "Luxembourg, LUX",
+      "url": "https://www.amazon.jobs/en/jobs/10582414/ux-design-intern-luxembourg-interaction-design",
+      "firstSeen": "2026-10-19T12:05:11.109Z",
+      "is2027": false
+    },
+    {
       "company": "Google",
       "title": "Product Design Engineering Intern, 2027",
       "location": "placeTaipei, Taiwan; New Taipei, Banqiao District, New Taipei City, Taiwan",
@@ -268,7 +286,7 @@
     {
       "name": "Google",
       "openCount": 1,
-      "lastChecked": "2026-10-19T03:09:29.983Z"
+      "lastChecked": "2026-10-19T12:03:43.085Z"
     },
     {
       "name": "YouTube",
@@ -283,7 +301,7 @@
     {
       "name": "Apple",
       "openCount": 7,
-      "lastChecked": "2026-10-19T03:10:04.060Z"
+      "lastChecked": "2026-10-19T12:04:16.652Z"
     },
     {
       "name": "Capital One",
@@ -307,8 +325,8 @@
     },
     {
       "name": "Amazon",
-      "openCount": 1,
-      "lastChecked": "2026-10-19T03:10:58.236Z"
+      "openCount": 2,
+      "lastChecked": "2026-10-19T12:05:11.109Z"
     },
     {
       "name": "IBM",
