@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-20T18:58:49.058Z",
+  "generatedAt": "2026-10-20T23:43:19.567Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 10,
+    "open": 9,
     "new24h": 0,
-    "closed24h": 0,
+    "closed24h": 1,
     "summer2027": 1
   },
   "recentEvents": [
@@ -218,14 +218,6 @@
       "is2027": true
     },
     {
-      "company": "Amazon",
-      "title": "UX Designer Intern, AUTA",
-      "location": "Mexico City, Mexico City, MEX",
-      "url": "https://www.amazon.jobs/en/jobs/10553923/ux-designer-intern-auta",
-      "firstSeen": "2026-10-14T19:12:59.603Z",
-      "is2027": false
-    },
-    {
       "company": "Apple",
       "title": "Product Design Engineering Intern",
       "location": "LocationTaipei",
@@ -286,7 +278,7 @@
     {
       "name": "Google",
       "openCount": 1,
-      "lastChecked": "2026-10-20T18:54:35.766Z"
+      "lastChecked": "2026-10-20T23:38:40.777Z"
     },
     {
       "name": "YouTube",
@@ -301,7 +293,7 @@
     {
       "name": "Apple",
       "openCount": 7,
-      "lastChecked": "2026-10-20T18:55:08.900Z"
+      "lastChecked": "2026-10-20T23:39:16.077Z"
     },
     {
       "name": "Capital One",
@@ -325,8 +317,8 @@
     },
     {
       "name": "Amazon",
-      "openCount": 2,
-      "lastChecked": "2026-10-20T18:56:01.343Z"
+      "openCount": 1,
+      "lastChecked": "2026-10-20T23:40:25.853Z"
     },
     {
       "name": "IBM",
