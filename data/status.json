@@ -1,14 +1,24 @@
 {
-  "generatedAt": "2026-10-28T06:30:11.836Z",
+  "generatedAt": "2026-10-28T12:09:30.442Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 9,
-    "new24h": 0,
+    "open": 10,
+    "new24h": 1,
     "closed24h": 0,
-    "summer2027": 1
+    "summer2027": 2
   },
   "recentEvents": [
+    {
+      "type": "new",
+      "company": "Google",
+      "title": "User Experience Design Intern, Summer 2027, YouTube UX",
+      "location": "placeBengaluru, Karnataka, India",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/78252225691820742-user-experience-design-intern-summer-2027-youtube-ux",
+      "firstSeen": "2026-10-28T12:05:13.648Z",
+      "is2027": true,
+      "at": "2026-10-28T12:05:13.662Z"
+    },
     {
       "type": "new",
       "company": "Amazon",
@@ -202,6 +212,14 @@
   ],
   "openJobs": [
     {
+      "company": "Google",
+      "title": "User Experience Design Intern, Summer 2027, YouTube UX",
+      "location": "placeBengaluru, Karnataka, India",
+      "url": "https://www.google.com/about/careers/applications/jobs/results/78252225691820742-user-experience-design-intern-summer-2027-youtube-ux",
+      "firstSeen": "2026-10-28T12:05:13.648Z",
+      "is2027": true
+    },
+    {
       "company": "Amazon",
       "title": "UX Design Intern Luxembourg, Interaction Design",
       "location": "Luxembourg, LUX",
@@ -277,8 +295,8 @@
   "companies": [
     {
       "name": "Google",
-      "openCount": 1,
-      "lastChecked": "2026-10-28T03:53:48.042Z"
+      "openCount": 2,
+      "lastChecked": "2026-10-28T12:05:23.393Z"
     },
     {
       "name": "YouTube",
@@ -293,7 +311,7 @@
     {
       "name": "Apple",
       "openCount": 7,
-      "lastChecked": "2026-10-28T03:54:21.013Z"
+      "lastChecked": "2026-10-28T12:05:47.876Z"
     },
     {
       "name": "Capital One",
@@ -318,7 +336,7 @@
     {
       "name": "Amazon",
       "openCount": 1,
-      "lastChecked": "2026-10-28T03:55:15.237Z"
+      "lastChecked": "2026-10-28T12:06:41.430Z"
     },
     {
       "name": "IBM",
