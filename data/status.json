@@ -1,14 +1,24 @@
 {
-  "generatedAt": "2026-10-29T18:05:36.018Z",
+  "generatedAt": "2026-10-29T22:47:00.259Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 10,
-    "new24h": 0,
+    "open": 11,
+    "new24h": 1,
     "closed24h": 0,
-    "summer2027": 2
+    "summer2027": 3
   },
   "recentEvents": [
+    {
+      "type": "new",
+      "company": "Amazon",
+      "title": "UX Designer Intern – Summer 2027",
+      "location": "Seattle, Washington, USA",
+      "url": "https://www.amazon.jobs/en/jobs/10592766/ux-designer-intern-summer-2027",
+      "firstSeen": "2026-10-29T22:44:16.539Z",
+      "is2027": true,
+      "at": "2026-10-29T22:44:16.547Z"
+    },
     {
       "type": "new",
       "company": "Google",
@@ -212,6 +222,14 @@
   ],
   "openJobs": [
     {
+      "company": "Amazon",
+      "title": "UX Designer Intern – Summer 2027",
+      "location": "Seattle, Washington, USA",
+      "url": "https://www.amazon.jobs/en/jobs/10592766/ux-designer-intern-summer-2027",
+      "firstSeen": "2026-10-29T22:44:16.539Z",
+      "is2027": true
+    },
+    {
       "company": "Google",
       "title": "User Experience Design Intern, Summer 2027, YouTube UX",
       "location": "placeBengaluru, Karnataka, India",
@@ -296,7 +314,7 @@
     {
       "name": "Google",
       "openCount": 2,
-      "lastChecked": "2026-10-29T18:01:33.343Z"
+      "lastChecked": "2026-10-29T22:43:00.236Z"
     },
     {
       "name": "YouTube",
@@ -311,7 +329,7 @@
     {
       "name": "Apple",
       "openCount": 7,
-      "lastChecked": "2026-10-29T18:01:58.769Z"
+      "lastChecked": "2026-10-29T22:43:23.599Z"
     },
     {
       "name": "Capital One",
@@ -335,8 +353,8 @@
     },
     {
       "name": "Amazon",
-      "openCount": 1,
-      "lastChecked": "2026-10-29T18:02:52.787Z"
+      "openCount": 2,
+      "lastChecked": "2026-10-29T22:44:16.539Z"
     },
     {
       "name": "IBM",
