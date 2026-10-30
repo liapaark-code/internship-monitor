@@ -1,14 +1,34 @@
 {
-  "generatedAt": "2026-10-30T06:42:13.027Z",
+  "generatedAt": "2026-10-30T12:11:36.927Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 11,
-    "new24h": 1,
+    "open": 13,
+    "new24h": 3,
     "closed24h": 0,
     "summer2027": 3
   },
   "recentEvents": [
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "iPad Product Design Intern",
+      "location": "LocationShenzhen",
+      "url": "https://jobs.apple.com/en-us/details/200663491-3435/ipad-product-design-intern",
+      "firstSeen": "2026-10-30T12:08:04.843Z",
+      "is2027": false,
+      "at": "2026-10-30T12:08:04.863Z"
+    },
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "iPad Product Design Intern",
+      "location": "LocationShanghai",
+      "url": "https://jobs.apple.com/en-us/details/200663491-3715/ipad-product-design-intern",
+      "firstSeen": "2026-10-30T12:08:04.843Z",
+      "is2027": false,
+      "at": "2026-10-30T12:08:04.854Z"
+    },
     {
       "type": "new",
       "company": "Amazon",
@@ -222,6 +242,22 @@
   ],
   "openJobs": [
     {
+      "company": "Apple",
+      "title": "iPad Product Design Intern",
+      "location": "LocationShenzhen",
+      "url": "https://jobs.apple.com/en-us/details/200663491-3435/ipad-product-design-intern",
+      "firstSeen": "2026-10-30T12:08:04.843Z",
+      "is2027": false
+    },
+    {
+      "company": "Apple",
+      "title": "iPad Product Design Intern",
+      "location": "LocationShanghai",
+      "url": "https://jobs.apple.com/en-us/details/200663491-3715/ipad-product-design-intern",
+      "firstSeen": "2026-10-30T12:08:04.843Z",
+      "is2027": false
+    },
+    {
       "company": "Amazon",
       "title": "UX Designer Intern – Summer 2027",
       "location": "Seattle, Washington, USA",
@@ -314,7 +350,7 @@
     {
       "name": "Google",
       "openCount": 2,
-      "lastChecked": "2026-10-30T04:16:38.247Z"
+      "lastChecked": "2026-10-30T12:07:40.843Z"
     },
     {
       "name": "YouTube",
@@ -328,8 +364,8 @@
     },
     {
       "name": "Apple",
-      "openCount": 7,
-      "lastChecked": "2026-10-30T04:17:07.782Z"
+      "openCount": 9,
+      "lastChecked": "2026-10-30T12:08:04.843Z"
     },
     {
       "name": "Capital One",
@@ -354,7 +390,7 @@
     {
       "name": "Amazon",
       "openCount": 2,
-      "lastChecked": "2026-10-30T04:18:00.614Z"
+      "lastChecked": "2026-10-30T12:08:57.891Z"
     },
     {
       "name": "IBM",
