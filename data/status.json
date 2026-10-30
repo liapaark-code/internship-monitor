@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-30T12:11:36.927Z",
+  "generatedAt": "2026-10-30T19:55:16.418Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 13,
+    "open": 11,
     "new24h": 3,
-    "closed24h": 0,
+    "closed24h": 2,
     "summer2027": 3
   },
   "recentEvents": [
@@ -315,22 +315,6 @@
     },
     {
       "company": "Apple",
-      "title": "Input Device Product Design Intern",
-      "location": "LocationShanghai",
-      "url": "https://jobs.apple.com/en-us/details/200663491-3715/input-device-product-design-intern",
-      "firstSeen": "2026-07-21T14:44:44.232Z",
-      "is2027": false
-    },
-    {
-      "company": "Apple",
-      "title": "Input Device Product Design Intern",
-      "location": "LocationShenzhen",
-      "url": "https://jobs.apple.com/en-us/details/200663491-3435/input-device-product-design-intern",
-      "firstSeen": "2026-07-21T14:44:44.232Z",
-      "is2027": false
-    },
-    {
-      "company": "Apple",
       "title": "Audio Product Design Intern",
       "location": "LocationShanghai",
       "url": "https://jobs.apple.com/en-us/details/200669923-3715/audio-product-design-intern",
@@ -350,7 +334,7 @@
     {
       "name": "Google",
       "openCount": 2,
-      "lastChecked": "2026-10-30T12:07:40.843Z"
+      "lastChecked": "2026-10-30T19:51:18.159Z"
     },
     {
       "name": "YouTube",
@@ -364,8 +348,8 @@
     },
     {
       "name": "Apple",
-      "openCount": 9,
-      "lastChecked": "2026-10-30T12:08:04.843Z"
+      "openCount": 7,
+      "lastChecked": "2026-10-30T19:51:42.809Z"
     },
     {
       "name": "Capital One",
@@ -390,7 +374,7 @@
     {
       "name": "Amazon",
       "openCount": 2,
-      "lastChecked": "2026-10-30T12:08:57.891Z"
+      "lastChecked": "2026-10-30T19:52:37.070Z"
     },
     {
       "name": "IBM",
