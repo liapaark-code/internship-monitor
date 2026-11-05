@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-04T19:29:05.139Z",
+  "generatedAt": "2026-11-05T01:22:07.303Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 11,
+    "open": 10,
     "new24h": 0,
-    "closed24h": 0,
-    "summer2027": 3
+    "closed24h": 1,
+    "summer2027": 2
   },
   "recentEvents": [
     {
@@ -266,14 +266,6 @@
       "is2027": true
     },
     {
-      "company": "Google",
-      "title": "User Experience Design Intern, Summer 2027, YouTube UX",
-      "location": "placeBengaluru, Karnataka, India",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/78252225691820742-user-experience-design-intern-summer-2027-youtube-ux",
-      "firstSeen": "2026-10-28T12:05:13.648Z",
-      "is2027": true
-    },
-    {
       "company": "Amazon",
       "title": "UX Design Intern Luxembourg, Interaction Design",
       "location": "Luxembourg, LUX",
@@ -333,8 +325,8 @@
   "companies": [
     {
       "name": "Google",
-      "openCount": 2,
-      "lastChecked": "2026-11-04T19:24:51.090Z"
+      "openCount": 1,
+      "lastChecked": "2026-11-05T01:18:02.943Z"
     },
     {
       "name": "YouTube",
@@ -349,7 +341,7 @@
     {
       "name": "Apple",
       "openCount": 7,
-      "lastChecked": "2026-11-04T19:25:26.272Z"
+      "lastChecked": "2026-11-05T01:18:35.987Z"
     },
     {
       "name": "Capital One",
@@ -374,7 +366,7 @@
     {
       "name": "Amazon",
       "openCount": 2,
-      "lastChecked": "2026-11-04T19:26:20.468Z"
+      "lastChecked": "2026-11-05T01:19:28.300Z"
     },
     {
       "name": "IBM",
