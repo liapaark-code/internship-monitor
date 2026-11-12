@@ -1,14 +1,24 @@
 {
-  "generatedAt": "2026-11-12T07:54:09.357Z",
+  "generatedAt": "2026-11-12T14:39:59.062Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 10,
-    "new24h": 0,
+    "open": 11,
+    "new24h": 1,
     "closed24h": 0,
-    "summer2027": 2
+    "summer2027": 3
   },
   "recentEvents": [
+    {
+      "type": "new",
+      "company": "Adobe",
+      "title": "2027 Intern - Product Design Intern",
+      "location": "Job available in 2 locations Bangalore, Karnātaka, India Noida, Uttar Pradesh, India",
+      "url": "https://careers.adobe.com/us/en/job/R172738/2027-Intern-Product-Design-Intern",
+      "firstSeen": "2026-11-12T14:37:49.824Z",
+      "is2027": true,
+      "at": "2026-11-12T14:37:49.831Z"
+    },
     {
       "type": "new",
       "company": "Apple",
@@ -242,6 +252,14 @@
   ],
   "openJobs": [
     {
+      "company": "Adobe",
+      "title": "2027 Intern - Product Design Intern",
+      "location": "Job available in 2 locations Bangalore, Karnātaka, India Noida, Uttar Pradesh, India",
+      "url": "https://careers.adobe.com/us/en/job/R172738/2027-Intern-Product-Design-Intern",
+      "firstSeen": "2026-11-12T14:37:49.824Z",
+      "is2027": true
+    },
+    {
       "company": "Apple",
       "title": "iPad Product Design Intern",
       "location": "LocationShenzhen",
@@ -326,7 +344,7 @@
     {
       "name": "Google",
       "openCount": 1,
-      "lastChecked": "2026-11-12T05:40:52.602Z"
+      "lastChecked": "2026-11-12T14:35:20.634Z"
     },
     {
       "name": "YouTube",
@@ -341,7 +359,7 @@
     {
       "name": "Apple",
       "openCount": 7,
-      "lastChecked": "2026-11-12T05:41:27.006Z"
+      "lastChecked": "2026-11-12T14:35:54.727Z"
     },
     {
       "name": "Capital One",
@@ -366,7 +384,7 @@
     {
       "name": "Amazon",
       "openCount": 2,
-      "lastChecked": "2026-11-12T05:42:20.377Z"
+      "lastChecked": "2026-11-12T14:36:48.056Z"
     },
     {
       "name": "IBM",
@@ -375,8 +393,8 @@
     },
     {
       "name": "Adobe",
-      "openCount": 0,
-      "lastChecked": null
+      "openCount": 1,
+      "lastChecked": "2026-11-12T14:37:49.824Z"
     },
     {
       "name": "American Express",
