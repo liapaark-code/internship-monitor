@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-12T21:48:25.946Z",
+  "generatedAt": "2026-11-13T05:02:01.435Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 11,
+    "open": 10,
     "new24h": 1,
-    "closed24h": 0,
-    "summer2027": 3
+    "closed24h": 1,
+    "summer2027": 2
   },
   "recentEvents": [
     {
@@ -252,14 +252,6 @@
   ],
   "openJobs": [
     {
-      "company": "Adobe",
-      "title": "2027 Intern - Product Design Intern",
-      "location": "Job available in 2 locations Bangalore, Karnātaka, India Noida, Uttar Pradesh, India",
-      "url": "https://careers.adobe.com/us/en/job/R172738/2027-Intern-Product-Design-Intern",
-      "firstSeen": "2026-11-12T14:37:49.824Z",
-      "is2027": true
-    },
-    {
       "company": "Apple",
       "title": "iPad Product Design Intern",
       "location": "LocationShenzhen",
@@ -344,7 +336,7 @@
     {
       "name": "Google",
       "openCount": 1,
-      "lastChecked": "2026-11-12T21:43:46.112Z"
+      "lastChecked": "2026-11-13T04:56:54.271Z"
     },
     {
       "name": "YouTube",
@@ -359,7 +351,7 @@
     {
       "name": "Apple",
       "openCount": 7,
-      "lastChecked": "2026-11-12T21:44:20.377Z"
+      "lastChecked": "2026-11-13T04:57:28.637Z"
     },
     {
       "name": "Capital One",
@@ -384,7 +376,7 @@
     {
       "name": "Amazon",
       "openCount": 2,
-      "lastChecked": "2026-11-12T21:45:13.485Z"
+      "lastChecked": "2026-11-13T04:59:22.587Z"
     },
     {
       "name": "IBM",
@@ -393,8 +385,8 @@
     },
     {
       "name": "Adobe",
-      "openCount": 1,
-      "lastChecked": "2026-11-12T21:46:13.567Z"
+      "openCount": 0,
+      "lastChecked": "2026-11-13T05:00:24.559Z"
     },
     {
       "name": "American Express",
