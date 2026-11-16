@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-15T18:33:17.631Z",
+  "generatedAt": "2026-11-16T00:48:03.344Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 10,
+    "open": 9,
     "new24h": 0,
-    "closed24h": 0,
-    "summer2027": 2
+    "closed24h": 1,
+    "summer2027": 1
   },
   "recentEvents": [
     {
@@ -284,14 +284,6 @@
       "is2027": false
     },
     {
-      "company": "Google",
-      "title": "Product Design Engineering Intern, 2027",
-      "location": "placeTaipei, Taiwan; New Taipei, Banqiao District, New Taipei City, Taiwan",
-      "url": "https://www.google.com/about/careers/applications/jobs/results/90179993312600774-product-design-engineering-intern-2027",
-      "firstSeen": "2026-10-15T10:50:28.065Z",
-      "is2027": true
-    },
-    {
       "company": "Apple",
       "title": "Product Design Engineering Intern",
       "location": "LocationTaipei",
@@ -335,8 +327,8 @@
   "companies": [
     {
       "name": "Google",
-      "openCount": 1,
-      "lastChecked": "2026-11-15T18:28:39.937Z"
+      "openCount": 0,
+      "lastChecked": "2026-11-16T00:43:54.322Z"
     },
     {
       "name": "YouTube",
@@ -351,7 +343,7 @@
     {
       "name": "Apple",
       "openCount": 7,
-      "lastChecked": "2026-11-15T18:29:46.745Z"
+      "lastChecked": "2026-11-16T00:44:33.031Z"
     },
     {
       "name": "Capital One",
@@ -376,7 +368,7 @@
     {
       "name": "Amazon",
       "openCount": 2,
-      "lastChecked": "2026-11-15T18:30:40.421Z"
+      "lastChecked": "2026-11-16T00:45:25.557Z"
     },
     {
       "name": "IBM",
