@@ -1,14 +1,24 @@
 {
-  "generatedAt": "2026-11-19T08:16:31.248Z",
+  "generatedAt": "2026-11-19T11:10:49.024Z",
   "timezone": "America/Chicago",
   "companiesMonitored": 18,
   "counts": {
-    "open": 10,
-    "new24h": 0,
+    "open": 11,
+    "new24h": 1,
     "closed24h": 0,
     "summer2027": 2
   },
   "recentEvents": [
+    {
+      "type": "new",
+      "company": "Apple",
+      "title": "iPad Product Design Intern",
+      "location": "LocationShenzhen",
+      "url": "https://jobs.apple.com/en-us/details/200695601-3435/ipad-product-design-intern",
+      "firstSeen": "2026-11-19T11:07:20.322Z",
+      "is2027": false,
+      "at": "2026-11-19T11:07:20.332Z"
+    },
     {
       "type": "new",
       "company": "Google",
@@ -248,19 +258,17 @@
       "firstSeen": "2026-07-21T14:44:44.232Z",
       "is2027": false,
       "at": "2026-07-21T14:44:44.251Z"
-    },
-    {
-      "type": "new",
-      "company": "Apple",
-      "title": "Mac Product Design Intern",
-      "location": "LocationShanghai",
-      "url": "https://jobs.apple.com/en-us/details/200670275-3715/mac-product-design-intern",
-      "firstSeen": "2026-07-21T14:44:44.232Z",
-      "is2027": false,
-      "at": "2026-07-21T14:44:44.243Z"
     }
   ],
   "openJobs": [
+    {
+      "company": "Apple",
+      "title": "iPad Product Design Intern",
+      "location": "LocationShenzhen",
+      "url": "https://jobs.apple.com/en-us/details/200695601-3435/ipad-product-design-intern",
+      "firstSeen": "2026-11-19T11:07:20.322Z",
+      "is2027": false
+    },
     {
       "company": "Google",
       "title": "Product Design Engineering Intern, 2027",
@@ -346,7 +354,7 @@
     {
       "name": "Google",
       "openCount": 1,
-      "lastChecked": "2026-11-19T02:14:53.772Z"
+      "lastChecked": "2026-11-19T11:06:43.532Z"
     },
     {
       "name": "YouTube",
@@ -360,8 +368,8 @@
     },
     {
       "name": "Apple",
-      "openCount": 7,
-      "lastChecked": "2026-11-19T02:15:37.168Z"
+      "openCount": 8,
+      "lastChecked": "2026-11-19T11:07:20.322Z"
     },
     {
       "name": "Capital One",
@@ -386,7 +394,7 @@
     {
       "name": "Amazon",
       "openCount": 2,
-      "lastChecked": "2026-11-19T02:16:33.095Z"
+      "lastChecked": "2026-11-19T11:08:13.686Z"
     },
     {
       "name": "IBM",
